@@ -18,14 +18,14 @@ header {
 }
 
 header h3 {
-    margin-left: 20px;
-    font-family: Poppins;
-    font-weight: 700;
-    size: 18px;
-    line-height: 20px;
-    color: #6070FF;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  size: 18px;
+  line-height: 20px;
+  color: #6070ff;
 }
 
-header img{
-    margin-right: 20px;
+header img {
+  margin-right: 20px;
 }
