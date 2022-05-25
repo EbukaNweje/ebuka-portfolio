@@ -8,10 +8,6 @@ body {
 .MainContainer {
   width: 100%;
   height: 100vh;
-  background-image: url(../img/header-shapes.png);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 header {
@@ -41,10 +37,13 @@ header img {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: url(../img/header-shapes.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .Profile h1 {
-  font-size: 40px;
+  font-size: 45px;
   font-family: "poppins", sans-serif;
   color: #172b4d;
   margin-left: 10px;
