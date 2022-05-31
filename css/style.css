@@ -14,7 +14,7 @@ a {
 }
 
 main {
-  height: 100vh;
+  height: 80vh;
   background-image: url(../img/header-shapes.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -300,3 +300,77 @@ li:active {
 .line {
   border-bottom: 1px solid #9bafe0;
 }
+
+.contact {
+  height: 100vh;
+  background: url(../img/header-shapes.png), linear-gradient(blue, blue);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.C_Card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.C_Card h3 {
+  margin-top: 100px;
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+}
+
+.C_Card p {
+  width: 90%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+}
+
+form {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+input {
+  width: 85%;
+  height: 50px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+textarea {
+  width: 82%;
+  height: 200px;
+  border: none;
+  outline: none;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+ .buttonBtn{
+   width: 200px;
+   height: 50px;
+   background: #fff;
+   color: #7f8cff;
+   margin-left: 20px;
+   border: none;
+   border-radius: 5px;
+   font-size: 18px;
+  }
