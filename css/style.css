@@ -302,13 +302,14 @@ li:active {
 }
 
 .contact {
-  height: 100vh;
-  background: url(../img/header-shapes.png), linear-gradient(blue, blue);
+  height: max-content;
+  background: url(../img/header-shapes.png), linear-gradient(#7f8cff, #7f8cff);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0;
   display: flex;
   justify-content: center;
+  border-top-left-radius: 20%;
 }
 
 .C_Card {
@@ -372,4 +373,5 @@ textarea {
   border: none;
   border-radius: 5px;
   font-size: 18px;
+  margin-bottom: 50px;
 }
