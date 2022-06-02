@@ -33,6 +33,11 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: none;
 }
 
 h1 {
@@ -128,8 +133,22 @@ li:active {
   margin: 30px 0;
 }
 
-.h {
-  height: 582px;
+.Cardh {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 582px;;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 30px 0;
 }
 
 .Card > img {
@@ -168,6 +187,10 @@ li:active {
   display: flex;
 }
 
+.Info2 {
+  display: none;
+}
+
 .CusList li {
   font-size: 15px;
   background: #ebebff;
@@ -182,6 +205,10 @@ li:active {
   list-style-type: disc;
   margin: 0 15px;
   font-weight: 500;
+}
+
+.hidden {
+ display: none;
 }
 
 .Info {
@@ -202,6 +229,12 @@ li:active {
   width: 120px;
   margin-top: 10px;
   color: #6070ff;
+  transition: all 350ms;
+}
+
+.btn:hover {
+  background: #6070ff;
+  color: #fff;
 }
 
 .About {
@@ -274,6 +307,11 @@ li:active {
   color: #000;
   font-weight: 500;
   font-size: 20px;
+}
+
+.Listul {
+  display: flex;
+  flex-direction: column;
 }
 
 .List {
@@ -380,4 +418,167 @@ textarea {
   background: #7f8cff;
   color: #fff;
   border: 1px solid #fff;
+}
+
+@media(min-width: 768px) {
+nav img {
+  display: none;  
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li{
+  font-size: 15px;
+}
+
+nav ul li a{
+  color: #344563;
+}
+
+main {
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/Header\ bg@2x.png);
+  background-size: fixed;
+  background-repeat: no-repeat;
+}
+
+.Profile {
+  width: 60%;
+}
+
+article h1 {
+  width: 80%;
+  font-size: 65px;
+  line-height: 70px;
+}
+
+article p {
+  margin-top: 10px;
+}
+
+.Profile h4 {
+  margin-top: 20px;
+}
+
+.Work {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Card {
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 60vh;
+  align-items: flex-start;
+}
+
+.Cardh {
+  width: 80%;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 60vh;
+  align-items: flex-start;
+}
+
+.Cardh img {
+  width: 100%;
+  height: 100%;
+}
+
+.Card img {
+  width: 100%;
+  height: 60%;
+}
+
+.TitleContainer {
+  margin-top: 20px;
+}
+
+.Campoy span {
+  margin-top: 15px;
+}
+
+.Campoy ul{
+  margin-top: 15px;
+}
+
+.Info {
+  display: none;
+}
+
+.Info2 {
+  display: flex;
+}
+
+.About {
+  height: 100vh;
+}
+
+.AboutContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.AboutTop {
+  width: 40%;
+  margin-left: 30px;
+}
+
+ .Languages {
+  width: 60%;
+  margin-left: 20px;
+}
+
+.Lag {
+  width: 80%;
+}
+
+.Listul {
+  display: flex;
+  flex-direction: row;
+}
+
+.List {
+  width: 100px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.List img {
+  margin: 0px;
+}
+
+.List p {
+  margin: 0px;
+}
+
+.FooterPart {
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 70%;
+}
+
+textarea {
+  width: 68%;
+}
+
 }
