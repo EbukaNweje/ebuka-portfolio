@@ -303,6 +303,11 @@ li:active {
   align-items: center;
 }
 
+.Fram {
+  display: block;
+  height: max-content;
+}
+
 .Lag > h5 {
   color: #000;
   font-weight: 500;
@@ -537,8 +542,9 @@ textarea {
   }
 
   .Lag {
-    width: 80%;
+    width: 96%;
   }
+
 
   .Listul {
     display: flex;
