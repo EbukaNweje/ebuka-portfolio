@@ -38,6 +38,20 @@ a {
   margin: 0 0 50px 0;
   background-color: white;
   border-bottom-left-radius: 80px;
+  animation-name: Body_change;
+  animation-duration: 2s;
+}
+
+@keyframes Body_change {
+  from {
+    transition: all 350ms;
+    background-color: #172b4d;
+  }
+
+  to {
+    transition: all 350ms ease-in;
+    background: #f7f7f9;
+  }
 }
 
 .text-connect {
@@ -475,11 +489,23 @@ textarea::placeholder {
   .headline-head {
     font-size: 48px;
     line-height: 60px;
+    animation-name: head_chage;
+    animation-duration: 2s;
   }
 
   .headline-article {
     font-size: 20px;
     line-height: 28px;
+  }
+
+  @keyframes head_chage {
+    from {
+      color: #172b4d;
+    }
+
+    to {
+      color: #2230d2;
+    }
   }
 
   .work {
