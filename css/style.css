@@ -26,13 +26,36 @@ nav {
   width: 100%;
 }
 
+ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding-left: 0;
+}
+
 nav ul {
   margin-right: 20%;
+}
+
+li {
+  list-style: none;
+  margin: 0 20px 10px 0;
+  font-size: 15px;
 }
 
 nav ul li {
   height: 70px;
   margin-left: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li > a {
+  margin-right: 0 20px 0 0;
+  color: #505f79;
+  font-size: 20px;
 }
 
 nav ul li a {
@@ -54,16 +77,19 @@ nav ul li a {
   display: block;
 }
 
+span {
+  color: #6070ff;
+  font-weight: 700px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
 .items span {
   font-size: 30px;
   cursor: pointer;
   color: white;
   font-weight: 400;
   margin-left: 70%;
-}
-
-a {
-  text-decoration: none;
 }
 
 .main-section {
@@ -111,13 +137,6 @@ a {
   margin: 0;
 }
 
-span {
-  color: #6070ff;
-  font-weight: 700px;
-  font-size: 12px;
-  line-height: 20px;
-}
-
 h1 {
   font-size: 50px;
   line-height: 52px;
@@ -158,25 +177,6 @@ section > h4 {
   font-weight: 500;
   line-height: 24px;
   color: #7f8cff;
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  padding-left: 0;
-}
-
-li {
-  list-style: none;
-  margin: 0 20px 10px 0;
-  font-size: 15px;
-}
-
-li > a {
-  margin-right: 0 20px 0 0;
-  color: #505f79;
-  font-size: 20px;
 }
 
 li:hover {
@@ -506,7 +506,7 @@ textarea::placeholder {
 
   nav ul li {
     height: 70px;
-    margin-left: 0px;
+    margin-left: 1px;
   }
 
   nav ul li a {
@@ -519,7 +519,7 @@ textarea::placeholder {
     position: absolute;
     left: 60%;
     top: 10px;
-    padding-top: 0px;
+    padding-top: 1px;
   }
 
   .items span {
