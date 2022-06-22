@@ -22,12 +22,12 @@ link.onclick = () => {
 
 link2.onclick = () => {
   Nav.classList.remove('show');
-  HendMenu.style.display = 'block'
+  HendMenu.style.display = 'block';
 };
 
 link3.onclick = () => {
   Nav.classList.remove('show');
-  HendMenu.style.display = 'block'
+  HendMenu.style.display = 'block';
 };
 
 Close.onclick = () => {
