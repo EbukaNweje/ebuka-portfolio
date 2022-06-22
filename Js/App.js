@@ -10,22 +10,26 @@ HendMenu.onclick = () => {
   HendMenu.style.display = "none"
 };
 
-Close.onclick = ()=> {
+Close.onclick = () => {
   Nav.classList.remove('show');
   HendMenu.style.display = "block"
 };
 
-link.onclick = ()=> {
+link.onclick = () => {
   Nav.classList.remove('show');
   HendMenu.style.display = "block"
 };
 
-link2.onclick = ()=> {
+link2.onclick = () => {
   Nav.classList.remove('show');
   HendMenu.style.display = "block"
 };
 
-link3.onclick = ()=> {
+link3.onclick = () => {
   Nav.classList.remove('show');
   HendMenu.style.display = "block"
+};
+
+Close.onclick = () => {
+  Nav.classList.remove('show');
 };
