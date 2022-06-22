@@ -1,40 +1,41 @@
-# ebuka-portfolio
-# Portfolio-setup-and-mobile-version-skeleton
+## Portfolio Project
 
-> This is a Mobile version of my Portfolio Website.
+On this project, I built personal portfolio
 
-## Below is a GIF showing my Portfolio
-![gif](./project.png)
-
-This website is a setup and mobile version skeleton of my portfolio.
-
-## Setup
-
-### Clone this repository
-
-```bash
-$ git clone https://github.com/EbukaNweje/ebuka-portfolio.git
-$ cd Portfolio
-```
-### Run the live server or open index.html with your browser
-
-## Live Demo
-
-You can see [my page live here](https://ebukanweje.github.io/ebuka-portfolio/)
+To-do :
+ Mobile Skeleton
+ Mobile Cards
+ Desktop versions
+ Animations and transitions
+ Side menu for mobile
+ Modal Cards
+ Dynamic load
+ Form validation
+ Local storage
 
 ## Built With
 
 - HTML
 - CSS
-- VSCode
+- Javascript
 
-## Author
+# Prerequisites
+The basic requirements for building this project are:
 
-👤 **Ebuka Nweje Favour**
+VSCode or any other equivalent code editor
+Node package manager
 
-- GitHub: [@githubhandle](https://github.com/EbukaNweje)
-- Twitter: [@twitterhandle](https://twitter.com/NwejeEbuka)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ebuka-nweje-b5993317a/)
+# Live Demo:
+
+[Live Demo Link](https://ekenecf.github.io)
+
+👤 **Author1**
+
+- [@githubhandle](https://github.com/ekenecf)
+- [@twitterhandle](https://twitter.com/ekene070)
+- [LinkedIn](https://linkedin.com/in/EkeneNwachukwu)
+
+
 
 ## 🤝 Contributing
 
@@ -44,6 +45,10 @@ Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
-## 📝 License
+## Acknowledgments
 
-This project is [MIT](LICENSE) licensed.
+- Hat tip to anyone whose code was used
+- Mentors
+- W3schools.com
+
+## 📝 License
